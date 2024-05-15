@@ -89,6 +89,9 @@ while animating:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_DOWN:
                 II.rotate() 
+            elif event.key == pygame.K_SPACE:
+                INPUT = INPUT + " "
+                OUTPUT = OUTPUT + " "
             else:
                 key = event.unicode
                 if key in "abcdefghijklmnopqrstuvwxyz":

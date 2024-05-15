@@ -38,3 +38,12 @@ def draw(enigma,path, screen, width, height, margins, gap, font):
          component.draw(screen, x, y, w, h, font)               
          x += w + gap
       
+      #add names
+      names= ["Reflector", "Left", "Middle", "Right", "Plugboard", "Key/Lampboard"]
+      y=margins["top"]*3/4
+      
+      for i in range(6):
+          x = margins["left"]+ w/2+i*(w+gap)
+          title = font.render(names[i],True, "white" )
+          text_box = title.get_rect(center = (x, y))
+          screen.blit(title, text_box)

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Code.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|solutionrelative:Code.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Draw.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|solutionrelative:Draw.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Code.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|solutionrelative:Code.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Engima.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 309,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,46 +44,35 @@
               "RelativeDocumentMoniker": "Engima.py",
               "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Engima.py",
               "RelativeToolTip": "Engima.py",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAEMAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-05-14T12:37:21.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T12:37:21.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Draw.py",
               "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Draw.py",
               "RelativeDocumentMoniker": "Draw.py",
               "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Draw.py",
               "RelativeToolTip": "Draw.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAASwC8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-05-14T12:00:15.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Code.py",
               "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Code.py",
               "RelativeDocumentMoniker": "Code.py",
               "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Code.py",
               "RelativeToolTip": "Code.py",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAABUAAAAXAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAF0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-05-14T09:00:06.502Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 44,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

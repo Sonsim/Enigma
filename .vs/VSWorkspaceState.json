@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Code"
   ],
-  "SelectedNode": "\\.gitattributes",
+  "SelectedNode": "\\Code\\Code.py",
   "PreviewInSolutionExplorer": false
 }
