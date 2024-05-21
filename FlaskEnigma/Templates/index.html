@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Enigma</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}"/>
+</head>
+<body>
+<div class="allthings">
+<div id="reflector" class="reflector">
+
+	<p>{{reflector.right}}</p>
+	<p>{{reflector.left}}</p>
+
+</div>
+<div id="rotors" class="rotors">
+
+	{% for rotor in rotors %}
+	<div class="rotor">
+		<p>{{rotor.right}}</p>
+		<p>{{rotor.left}}</p>
+	</div>
+	{% endfor %}
+
+</div>
+</div>
+<div><textarea id="output"></textarea></div>
+<div class="Lampboard1">
+	<div class="LampButton">Q</div>
+	<div class="LampButton">W</div>
+	<div class="LampButton">E</div>
+	<div class="LampButton">R</div>
+	<div class="LampButton">T</div>
+	<div class="LampButton">Z</div>
+	<div class="LampButton">U</div>
+	<div class="LampButton">I</div>
+	<div class="LampButton">O</div>
+</div>
+
+<div class="Lampboard1">
+	<div class="LampButton">A</div>
+	<div class="LampButton">S</div>
+	<div class="LampButton">D</div>
+	<div class="LampButton">F</div>
+	<div class="LampButton">G</div>
+	<div class="LampButton">H</div>
+	<div class="LampButton">J</div>
+	<div class="LampButton">K</div>
+</div>
+<div class="Lampboard1">
+	<div class="LampButton">P</div>
+	<div class="LampButton">Y</div>
+	<div class="LampButton">X</div>
+	<div class="LampButton">C</div>
+	<div class="LampButton">V</div>
+	<div class="LampButton">B</div>
+	<div class="LampButton">N</div>
+	<div class="LampButton">M</div>
+	<div class="LampButton">L</div>
+</div>
+<div id="plugboard">Plugboard</div>
+<div id="input">
+	<textarea></textarea>
+</div>
+</body>
+</html>

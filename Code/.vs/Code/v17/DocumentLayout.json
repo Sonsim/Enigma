@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Draw.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|solutionrelative:Draw.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Code.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|solutionrelative:Code.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Keyboard.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|solutionrelative:Keyboard.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Engima.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|solutionrelative:Engima.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Plugboard.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|solutionrelative:Plugboard.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Rotor.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|solutionrelative:Rotor.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Reflector.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{30FD0DC1-C862-469E-9AAA-A02A17875ACC}|Code.pyproj|solutionrelative:Reflector.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 309,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,38 +50,78 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Plugboard.py",
+              "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Plugboard.py",
+              "RelativeDocumentMoniker": "Plugboard.py",
+              "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Plugboard.py",
+              "RelativeToolTip": "Plugboard.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-21T10:21:47.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reflector.py",
+              "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Reflector.py",
+              "RelativeDocumentMoniker": "Reflector.py",
+              "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Reflector.py",
+              "RelativeToolTip": "Reflector.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-21T10:21:23.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Keyboard.py",
+              "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Keyboard.py",
+              "RelativeDocumentMoniker": "Keyboard.py",
+              "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Keyboard.py",
+              "RelativeToolTip": "Keyboard.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-21T10:13:41.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rotor.py",
+              "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Rotor.py",
+              "RelativeDocumentMoniker": "Rotor.py",
+              "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Rotor.py",
+              "RelativeToolTip": "Rotor.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-21T10:13:24.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Engima.py",
               "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Engima.py",
               "RelativeDocumentMoniker": "Engima.py",
               "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Engima.py",
               "RelativeToolTip": "Engima.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-05-14T12:37:21.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Draw.py",
-              "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Draw.py",
-              "RelativeDocumentMoniker": "Draw.py",
-              "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Draw.py",
-              "RelativeToolTip": "Draw.py",
-              "ViewState": "AQIAACAAAAAAAAAAAAASwC8AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-05-14T12:00:15.977Z",
+              "WhenOpened": "2024-05-14T12:37:21.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Code.py",
               "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Code.py",
               "RelativeDocumentMoniker": "Code.py",
               "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\Code\\Code.py",
               "RelativeToolTip": "Code.py",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAF0AAAAkAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-05-14T09:00:06.502Z",
               "EditorCaption": ""

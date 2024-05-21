@@ -39,7 +39,7 @@ C = Reflector("FVPJIAOYEDRZXWGCTKUQSBNMHL")
 
 #Keyboard and plugboard
 KB = Keyboard()
-PB = Plugboard(["AB", "CD", "EF"])
+PB = Plugboard([])
 
 #Defines enigma machine
 ENIGMA = Enigma(B, I, II, III, PB, KB)

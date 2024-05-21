@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Enigma</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}" />
+</head>
+<body>
+<h1>Configure Enigma</h1>
+<form action="/enigma" method="post">
+<div class="start-container">
+	<h2>Choose reflector</h2>
+	<div id="reflectors" class="reflectorchoice">
+		{% for reflector in reflectors%}
+		<p>{{reflector.right}}</p>
+		{% endfor %}
+	</div>
+	<label>Which Reflector do you want to use?</label>
+	<input name="reflector" id="reflector" type="number"/>
+</div>
+<div class="start-container">
+	<h2>Choose rotors</h2>
+	<div class="reflectorchoice">
+		{% for rotor in rotors %}
+		<p>{{rotor.right}}, {{rotor.notch}}</p>
+		{% endfor %}
+	</div>
+		<label>Which rotors do you want to use?</label>
+		<input name="rotor1" id="rotor1" type="number" />
+		<input name="rotor2" id="rotor2" type="number" />
+		<input name="rotor3" id="rotor3" type="number" />
+	
+</div>
+<div class="start-container">
+	<h2>Configure plugboard</h2>
+	<label> Which letters would you like to swap?</label>
+	<input placeholder="Letter 1" type="text"/>
+	<input placeholder="Letter 2" type="text"/>
+	<button>Swap more?</button>
+</div>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>

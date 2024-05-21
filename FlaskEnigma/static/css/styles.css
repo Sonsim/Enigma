@@ -1,0 +1,70 @@
+body {
+    background-color: #404040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Lampboard1 {
+    display: flex;
+    flex-direction: row;
+}
+.LampButton {
+    border-radius: 50%;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: x-large;
+    text-align: center;
+    vertical-align: bottom;
+}
+.LampButtonPressed {
+    background: radial-gradient(ellipse at center, #f1e867 56%,#feb746 100%);
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: x-large;
+    text-align: center;
+    vertical-align: bottom;
+}
+.reflectorchoice {
+   color: white
+}
+.start-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rotors {
+    display: flex;
+    flex-direction: row;
+}
+.rotor {
+    border: solid 1px white;
+    margin: 10px;
+    height: 125px;
+    width: 100px;
+    overflow: hidden;
+    font-size: larger;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.allthings{
+    display: flex;
+    flex-direction: row;
+}
+.reflector {
+    border: solid 1px white;
+    margin: 10px;
+    font-size: larger;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    height: 125px;
+    width: 100px;
+    overflow: hidden
+}
