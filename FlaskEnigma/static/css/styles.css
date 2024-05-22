@@ -68,3 +68,17 @@ body {
     width: 100px;
     overflow: hidden
 }
+.Plugboard {
+    display: flex;
+    flex-direction: row;
+}
+.Plug {
+    border: solid 1px white;
+    margin: 10px;
+    height: 125px;
+    width: 100px;
+    overflow: hidden;
+    font-size: larger;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}

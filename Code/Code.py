@@ -39,16 +39,16 @@ C = Reflector("FVPJIAOYEDRZXWGCTKUQSBNMHL")
 
 #Keyboard and plugboard
 KB = Keyboard()
-PB = Plugboard([])
+PB = Plugboard(["BM"])
 
 #Defines enigma machine
-ENIGMA = Enigma(B, I, II, III, PB, KB)
+ENIGMA = Enigma(B, III, IV, V, PB, KB)
 
 # Set the ring
 ENIGMA.set_rings((1,1,1))
 
 #Set message key
-ENIGMA.set_key("CAT")
+ENIGMA.set_key("DOG")
 
 """
 # Enchiper message

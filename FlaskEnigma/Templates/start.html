@@ -9,37 +9,53 @@
 <body>
 <h1>Configure Enigma</h1>
 <form action="/enigma" method="post">
-<div class="start-container">
-	<h2>Choose reflector</h2>
-	<div id="reflectors" class="reflectorchoice">
-		{% for reflector in reflectors%}
-		<p>{{reflector.right}}</p>
-		{% endfor %}
+	<div class="start-container">
+		<h2>Choose reflector</h2>
+		<div id="reflectors" class="reflectorchoice">
+			{% for reflector in reflectors%}
+			<p>{{reflector.right}}</p>
+			{% endfor %}
+		</div>
+		<label>Which Reflector do you want to use?</label>
+		<input name="reflector" id="reflector" type="number" />
 	</div>
-	<label>Which Reflector do you want to use?</label>
-	<input name="reflector" id="reflector" type="number"/>
-</div>
-<div class="start-container">
-	<h2>Choose rotors</h2>
-	<div class="reflectorchoice">
-		{% for rotor in rotors %}
-		<p>{{rotor.right}}, {{rotor.notch}}</p>
-		{% endfor %}
-	</div>
+	<div class="start-container">
+		<h2>Choose rotors</h2>
+		<div class="reflectorchoice">
+			{% for rotor in rotors %}
+			<p>{{rotor.right}}, {{rotor.notch}}</p>
+			{% endfor %}
+		</div>
 		<label>Which rotors do you want to use?</label>
 		<input name="rotor1" id="rotor1" type="number" />
 		<input name="rotor2" id="rotor2" type="number" />
 		<input name="rotor3" id="rotor3" type="number" />
-	
-</div>
-<div class="start-container">
-	<h2>Configure plugboard</h2>
-	<label> Which letters would you like to swap?</label>
-	<input placeholder="Letter 1" type="text"/>
-	<input placeholder="Letter 2" type="text"/>
-	<button>Swap more?</button>
-</div>
-<button type="submit">Submit</button>
+
+	</div>
+	<div class="start-container">
+		<h2>Configure plugboard</h2>
+		<label> Which letters would you like to swap?</label>
+		<input id="letter1" name="letter1" placeholder="Letter 1" type="text" />
+		<input id="letter2" name="letter2" placeholder="Letter 2" type="text" />
+
+	</div>
+	<div class="start-container">
+		<h2>Configure rings</h2>
+		<label> Write the ring numbers you would like</label>
+		<input id="ring1" name="ring1" placeholder="Ring 1" type="number" min="1" max="26"/>
+		<input id="ring2" name="ring2" placeholder="Ring 2" type="number" min="1" max="26"/>
+		<input id="ring3" name="ring3" placeholder="Ring 2" type="number" min="1" max="26" />
+
+	</div>
+	<div class="start-container">
+		<h2>Configure key</h2>
+		<label> Which letters would you like to use</label>
+		<input id="keyletter1" name="keyletter1" placeholder="Letter 1" type="text" />
+		<input id="keyletter2" name="keyletter2" placeholder="Letter 2" type="text" />
+		<input id="keyletter3" name="keyletter3" placeholder="Letter 2" type="text" />
+
+	</div>
+	<button type="submit">Submit</button>
 </form>
 </body>
 </html>

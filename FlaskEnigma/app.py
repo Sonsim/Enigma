@@ -4,7 +4,7 @@ It contains the definition of routes and views for the application.
 """
 
 from flask import Flask, render_template, request
-from Classes import Rotor, Reflector
+from Classes import Rotor, Reflector, Plugboard, Keyboard, EnigmaMachine
 app = Flask(__name__)
 
 # Make the WSGI interface available at the top level so wfastcgi can get it.
@@ -20,6 +20,11 @@ A = Reflector.Reflector("EJMZALYXVBWFCRQUONTSPIKHGD")
 B = Reflector.Reflector("YRUHQSLDPXNGOKMIEBFZCWVJAT")
 C = Reflector.Reflector("FVPJIAOYEDRZXWGCTKUQSBNMHL")
 
+#Keyboard
+KB = Keyboard.Keyboard()
+
+
+
 @app.route('/')
 def home():
     rotors = [I, II, III, IV, V]
@@ -27,6 +32,9 @@ def home():
     return render_template('start.html', rotors=rotors, reflectors=reflectors)
 @app.route('/enigma', methods=["POST"])
 def EnigmaApp():
+    global ENIGMA
+
+    
     rotor1 = int(request.form.get('rotor1'))
     rotor2 = int(request.form.get('rotor2'))
     rotor3 = int(request.form.get('rotor3'))
@@ -43,7 +51,36 @@ def EnigmaApp():
     rotors.append(selected_rotor2)
     rotors.append(selected_rotor3)
 
-    return render_template('index.html', rotors=rotors, reflector=selected_reflector)
+    letter1 = request.form.get('letter1')
+    letter2 = request.form.get('letter2')
+    
+    PB = Plugboard.Plugboard([letter1.upper()+ letter2.upper()])
+
+    key1 = request.form.get('keyletter1')
+    key2 = request.form.get('keyletter2')
+    key3 = request.form.get('keyletter3')
+    
+    ring1 = int(request.form.get('ring1'))
+    ring2 = int(request.form.get('ring2'))
+    ring3 = int(request.form.get('ring3'))
+    
+    ENIGMA = EnigmaMachine.EnigmaMachine(selected_reflector, selected_rotor1, selected_rotor2, selected_rotor3, PB, KB)
+    
+    
+    ENIGMA.set_key(key1+key2+key3)
+    ENIGMA.set_rings((ring1, ring2, ring3))
+
+    return render_template('index.html', ENIGMA=ENIGMA)
+
+@app.route('/enchipher', methods=["POST"])
+def Convert():
+    inputstring = request.form.get('inputstring')
+    _Outputstring = ""
+    for letter in inputstring.upper(): 
+        cipher = ENIGMA.encipher(letter)
+        _Outputstring = _Outputstring + cipher
+    return render_template('index.html', ENIGMA=ENIGMA, output = _Outputstring)
+    
     
     
 

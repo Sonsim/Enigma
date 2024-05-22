@@ -15,8 +15,8 @@ class Rotor():
     def rotate(self, n=1, forward=True):
         for i in range(n):
             if forward:
-                self.left = self.left[1:] + self.left[self]
-                self.right = self.right[1:] + self.right[self]
+                self.left = self.left[1:] + self.left[0]
+                self.right = self.right[1:] + self.right[0]
             else:
                 self.left = self.left[25] + self.left[:25]
                 self.right = self.right[25] + self.right[:25]

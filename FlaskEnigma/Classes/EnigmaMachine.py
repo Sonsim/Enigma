@@ -1,4 +1,4 @@
-class Enigma:
+class EnigmaMachine:
     def __init__(self, re, r1, r2, r3, pb, kb):
         self.re = re
         self.r1 = r1
@@ -39,34 +39,25 @@ class Enigma:
         path = [signal, signal]
         signal = self.pb.forward(signal)
         path.append(signal)
-        path.append(signal)
+     
         signal = self.r3.forward(signal)
-        path.append(signal)
-        path.append(signal)
+     
         signal = self.r2.forward(signal)
-        path.append(signal)
-        path.append(signal)
+      
         signal = self.r1.forward(signal)
-        path.append(signal)
-        path.append(signal)
+        
         signal = self.re.reflect(signal)
-        path.append(signal)
-        path.append(signal)
-        path.append(signal)
+        
         signal = self.r1.backward(signal)
-        path.append(signal)
-        path.append(signal)
+       
         signal = self.r2.backward(signal)
-        path.append(signal)
-        path.append(signal)
+        
         signal = self.r3.backward(signal)
-        path.append(signal)
-        path.append(signal)
+    
         signal = self.pb.backward(signal)
-        path.append(signal)
-        path.append(signal)
+      
         letter = self.kb.backward(signal)
-        return path, letter
+        return letter
 
 
 

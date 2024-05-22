@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|solutionrelative:app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|solutionrelative:Templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\static\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|solutionrelative:static\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Classes\\EnigmaMachine.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|solutionrelative:Classes\\EnigmaMachine.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|solutionrelative:app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Classes\\Keyboard.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|solutionrelative:Classes\\Keyboard.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Classes\\Rotor.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1ECBD4B0-F03F-42A0-9C03-800DC59771CD}|FlaskEnigma.pyproj|solutionrelative:Classes\\Rotor.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 72,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,39 +46,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\static\\css\\styles.css",
-              "RelativeDocumentMoniker": "static\\css\\styles.css",
-              "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\static\\css\\styles.css",
-              "RelativeToolTip": "static\\css\\styles.css",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAwCwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-21T12:15:45.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Templates\\index.html",
-              "RelativeDocumentMoniker": "Templates\\index.html",
-              "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Templates\\index.html",
-              "RelativeToolTip": "Templates\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-21T11:41:04.562Z",
+              "DocumentIndex": 3,
+              "Title": "Keyboard.py",
+              "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Classes\\Keyboard.py",
+              "RelativeDocumentMoniker": "Classes\\Keyboard.py",
+              "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Classes\\Keyboard.py",
+              "RelativeToolTip": "Classes\\Keyboard.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-22T12:21:20.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "EnigmaMachine.py",
+              "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Classes\\EnigmaMachine.py",
+              "RelativeDocumentMoniker": "Classes\\EnigmaMachine.py",
+              "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Classes\\EnigmaMachine.py",
+              "RelativeToolTip": "Classes\\EnigmaMachine.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-22T11:01:05.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rotor.py",
+              "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Classes\\Rotor.py",
+              "RelativeDocumentMoniker": "Classes\\Rotor.py",
+              "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Classes\\Rotor.py",
+              "RelativeToolTip": "Classes\\Rotor.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-05-22T11:17:24.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Templates\\index.html",
+              "RelativeDocumentMoniker": "Templates\\index.html",
+              "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\Templates\\index.html",
+              "RelativeToolTip": "Templates\\index.html",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-22T08:50:14.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "app.py",
               "DocumentMoniker": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\app.py",
               "RelativeDocumentMoniker": "app.py",
               "ToolTip": "C:\\Users\\sondr\\Desktop\\Egne kodeprosjekter\\Enigma\\FlaskEnigma\\app.py",
               "RelativeToolTip": "app.py",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAABVAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAABwAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-05-15T08:28:46.895Z",
               "EditorCaption": ""

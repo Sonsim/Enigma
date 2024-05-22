@@ -7,25 +7,44 @@
     <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}"/>
 </head>
 <body>
+<div id="output">
+	{% if output != "" %}
+	{{output}}
+	{% endif %}
+</div>
 <div class="allthings">
-<div id="reflector" class="reflector">
+	<div id="reflector" class="reflector">
 
-	<p>{{reflector.right}}</p>
-	<p>{{reflector.left}}</p>
+		<p>{{ENIGMA.re.left}}</p>
+		<p>{{ENIGMA.re.right}}</p>
 
-</div>
-<div id="rotors" class="rotors">
 
-	{% for rotor in rotors %}
-	<div class="rotor">
-		<p>{{rotor.right}}</p>
-		<p>{{rotor.left}}</p>
+
 	</div>
-	{% endfor %}
+	<div id="rotors" class="rotors">
+
+		<div class="rotor">
+			<p>{{ENIGMA.r1.right}}</p>
+			<p>{{ENIGMA.r1.left}}</p>
+		</div>
+		<div class="rotor">
+			<p>{{ENIGMA.r2.right}}</p>
+			<p>{{ENIGMA.r2.left}}</p>
+		</div>
+		<div class="rotor">
+			<p>{{ENIGMA.r3.right}}</p>
+			<p>{{ENIGMA.r3.left}}</p>
+		</div>
+	</div>
+	<div id="plugboard" class="Plugboard">
+		<div class="Plug">
+			<p>{{ENIGMA.pb.left}}</p>
+			<p>{{ENIGMA.pb.right}}</p>
+			</div>
+	</div>
 
 </div>
-</div>
-<div><textarea id="output"></textarea></div>
+
 <div class="Lampboard1">
 	<div class="LampButton">Q</div>
 	<div class="LampButton">W</div>
@@ -59,9 +78,17 @@
 	<div class="LampButton">M</div>
 	<div class="LampButton">L</div>
 </div>
-<div id="plugboard">Plugboard</div>
-<div id="input">
-	<textarea></textarea>
+<div>
+	<form action="/enchipher" method="post">
+		<textarea id="inputstring" name="inputstring"></textarea>
+		<button type="submit">Submit</button>
+	</form>
 </div>
+{% if output != "" %}
+<form action="/">
+	<button type="submit">Back</button>
+</form>
+{% endif %}
+
 </body>
 </html>
