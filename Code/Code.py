@@ -39,10 +39,10 @@ C = Reflector("FVPJIAOYEDRZXWGCTKUQSBNMHL")
 
 #Keyboard and plugboard
 KB = Keyboard()
-PB = Plugboard(["BM"])
+PB = Plugboard(["BM", "AE"])
 
 #Defines enigma machine
-ENIGMA = Enigma(B, III, IV, V, PB, KB)
+ENIGMA = Enigma(A, I, II, III, PB, KB)
 
 # Set the ring
 ENIGMA.set_rings((1,1,1))

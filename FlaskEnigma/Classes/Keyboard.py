@@ -6,6 +6,7 @@ class Keyboard:
     def backward(self, signal):
         letter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[signal]
         return letter
-        
+    def to_dict(self):
+        return {}
 
 

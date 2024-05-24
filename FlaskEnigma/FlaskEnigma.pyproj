@@ -47,6 +47,7 @@
   <ItemGroup>
     <Content Include="requirements.txt" />
     <Content Include="static\css\styles.css" />
+    <Content Include="static\js\Mainscript.js" />
     <Content Include="Templates\index.html" />
     <Content Include="Templates\start.html" />
   </ItemGroup>
@@ -54,6 +55,7 @@
     <Folder Include="Classes\" />
     <Folder Include="static\" />
     <Folder Include="static\css\" />
+    <Folder Include="static\js\" />
     <Folder Include="Templates\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />

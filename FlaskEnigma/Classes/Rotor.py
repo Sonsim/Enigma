@@ -3,7 +3,12 @@ class Rotor():
         self.left = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         self.right = wiring
         self.notch = notch
-        
+    def to_dict(self):
+        return{
+       "left": self.left,
+       "right": self.right,
+       "notch": self.notch
+      }
     def forward(self, signal):
         letter = self.right[signal]
         signal = self.left.find(letter)

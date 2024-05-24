@@ -7,88 +7,116 @@
     <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}"/>
 </head>
 <body>
-<div id="output">
-	{% if output != "" %}
-	{{output}}
-	{% endif %}
-</div>
-<div class="allthings">
-	<div id="reflector" class="reflector">
-
-		<p>{{ENIGMA.re.left}}</p>
-		<p>{{ENIGMA.re.right}}</p>
-
-
-
-	</div>
-	<div id="rotors" class="rotors">
-
-		<div class="rotor">
-			<p>{{ENIGMA.r1.right}}</p>
-			<p>{{ENIGMA.r1.left}}</p>
+	<div class="divide">
+		<div class="sidenav">
+			<h1>Select 1 Reflector and 3 rotors</h1>
+			<h4>Reflector A:</h4>
+			<p>{{A.right}} <input type="checkbox" id="ACheck"/></p>
+			<h4>Reflector B:</h4>
+			<p>{{B.right}} <input type="checkbox" id="BCheck"/> </p>
+			<h4>Reflector C:</h4>
+			<p>{{C.right}} <input type="checkbox" id="CCheck"/> </p>
+			<h4>Rotor I:</h4>
+			<p id="rotor1">{{I.right}}, notch: {{I.notch}} <input type="checkbox" id="ICheck"/> </p>
+			<h4>Rotor II:</h4>
+			<p id="rotor2">{{II.right}}, notch: {{II.notch}} <input type="checkbox" id="IICheck"/> </p>
+			<h4>Rotor III:</h4>
+			<p id="rotor3">{{III.right}}, notch: {{III.notch}} <input type="checkbox" id="IIICheck"/> </p>
+			<h4>Rotor II:</h4>
+			<p>{{IV.right}}, notch: {{IV.notch}} <input type="checkbox" id="IVCheck"/> </p>
+			<h4>Rotor II:</h4>
+			<p>{{V.right}}, notch: {{V.notch}} <input type="checkbox" id="VCheck"/> </p>
+			<label>Configure plugboard</label>
+			<input id="plugboardinput"/>
+			<button onclick="ChangeEnigma()">Confirm</button>
 		</div>
-		<div class="rotor">
-			<p>{{ENIGMA.r2.right}}</p>
-			<p>{{ENIGMA.r2.left}}</p>
+		<div id="output">
+			{% if output != "" %}
+			{{output}}
+			{% endif %}
 		</div>
-		<div class="rotor">
-			<p>{{ENIGMA.r3.right}}</p>
-			<p>{{ENIGMA.r3.left}}</p>
-		</div>
-	</div>
-	<div id="plugboard" class="Plugboard">
-		<div class="Plug">
-			<p>{{ENIGMA.pb.left}}</p>
-			<p>{{ENIGMA.pb.right}}</p>
+		<div class="right">
+		<div class="allthings">
+			<div id="reflector" class="reflector">
+
+				<p>{{ENIGMA.re.left}}</p>
+				<p>{{ENIGMA.re.right}}</p>
+
+
+
 			</div>
+			<div id="rotors" class="rotors">
+
+				<div class="rotor">
+					<p>{{ENIGMA.r1.right}}</p>
+					<p>{{ENIGMA.r1.left}}</p>
+				</div>
+				<div class="rotor">
+					<p>{{ENIGMA.r2.right}}</p>
+					<p>{{ENIGMA.r2.left}}</p>
+				</div>
+				<div class="rotor">
+					<p>{{ENIGMA.r3.right}}</p>
+					<p>{{ENIGMA.r3.left}}</p>
+				</div>
+			</div>
+			<div id="plugboard" class="Plugboard">
+				<div class="Plug">
+					<p>{{ENIGMA.pb.left}}</p>
+					<p>{{ENIGMA.pb.right}}</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="Lampboard1">
+			<div class="LampButton">Q</div>
+			<div class="LampButton">W</div>
+			<div class="LampButton">E</div>
+			<div class="LampButton">R</div>
+			<div class="LampButton">T</div>
+			<div class="LampButton">Z</div>
+			<div class="LampButton">U</div>
+			<div class="LampButton">I</div>
+			<div class="LampButton">O</div>
+		</div>
+
+		<div class="Lampboard1">
+			<div class="LampButton">A</div>
+			<div class="LampButton">S</div>
+			<div class="LampButton">D</div>
+			<div class="LampButton">F</div>
+			<div class="LampButton">G</div>
+			<div class="LampButton">H</div>
+			<div class="LampButton">J</div>
+			<div class="LampButton">K</div>
+		</div>
+		<div class="Lampboard1">
+			<div class="LampButton">P</div>
+			<div class="LampButton">Y</div>
+			<div class="LampButton">X</div>
+			<div class="LampButton">C</div>
+			<div class="LampButton">V</div>
+			<div class="LampButton">B</div>
+			<div class="LampButton">N</div>
+			<div class="LampButton">M</div>
+			<div class="LampButton">L</div>
+		</div>
+		<div>
+			<form action="/enchipher" method="post">
+				<textarea id="inputstring" name="inputstring"></textarea>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+		{% if output != "" %}
+		<form action="/">
+			<button type="submit">Back</button>
+		</form>
+		{% endif %}
+
+		<button onclick="Test()">test</button>
+		</div>
 	</div>
-
-</div>
-
-<div class="Lampboard1">
-	<div class="LampButton">Q</div>
-	<div class="LampButton">W</div>
-	<div class="LampButton">E</div>
-	<div class="LampButton">R</div>
-	<div class="LampButton">T</div>
-	<div class="LampButton">Z</div>
-	<div class="LampButton">U</div>
-	<div class="LampButton">I</div>
-	<div class="LampButton">O</div>
-</div>
-
-<div class="Lampboard1">
-	<div class="LampButton">A</div>
-	<div class="LampButton">S</div>
-	<div class="LampButton">D</div>
-	<div class="LampButton">F</div>
-	<div class="LampButton">G</div>
-	<div class="LampButton">H</div>
-	<div class="LampButton">J</div>
-	<div class="LampButton">K</div>
-</div>
-<div class="Lampboard1">
-	<div class="LampButton">P</div>
-	<div class="LampButton">Y</div>
-	<div class="LampButton">X</div>
-	<div class="LampButton">C</div>
-	<div class="LampButton">V</div>
-	<div class="LampButton">B</div>
-	<div class="LampButton">N</div>
-	<div class="LampButton">M</div>
-	<div class="LampButton">L</div>
-</div>
-<div>
-	<form action="/enchipher" method="post">
-		<textarea id="inputstring" name="inputstring"></textarea>
-		<button type="submit">Submit</button>
-	</form>
-</div>
-{% if output != "" %}
-<form action="/">
-	<button type="submit">Back</button>
-</form>
-{% endif %}
-
+<script src="{{ url_for('static', filename='js/Mainscript.js') }}"></script>
 </body>
 </html>

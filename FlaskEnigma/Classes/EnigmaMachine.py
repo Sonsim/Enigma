@@ -16,7 +16,15 @@ class EnigmaMachine:
         self.r1.rotate_to_letter(key[0])
         self.r2.rotate_to_letter(key[1])
         self.r3.rotate_to_letter(key[2])
-        
+    def to_dict(self):
+        return {
+         "Reflector": self.re.to_dict(),
+         "Left": self.r1.to_dict(),
+         "Middle": self.r2.to_dict(),
+         "Right": self.r3.to_dict(),
+         "Plugboard": self.pb.to_dict(),
+         "Keyboard": self.kb.to_dict()
+         }
     def encipher(self, letter):
         
         #Rotate rotors
